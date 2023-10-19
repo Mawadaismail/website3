@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light nacc ">
+    <div class="container">
+      <nav class="navbar ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/te (1).png" alt="travel" width="70" height="70">
+          </a>
+        </div>
+      </nav>
+      <p>travel</p>
+      <div class="line"></div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-info" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-info" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-5 text-info" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Country
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Egypt</a></li>
+              <li><a class="dropdown-item" href="#">London</a></li>
+              <li><a class="dropdown-item" href="#">UAE</a></li>
+              <li><a class="dropdown-item" href="#">Greece</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item " href="#">Qatar</a></li>
+              <li><a class="dropdown-item" href="#">More....</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-info" href="#">Pricing</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+          <button type="button" class="btn btn-outline-info me-3">Search</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header  bg-primary text-light ">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Log in</h1>
+                  <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                    </div>
+
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger " data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Log in</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active "
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgs/8dad615ab6e242e3b706cd19658bd70d.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Roma</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="carousel-item">
+        <img src="imgs/DyeMIc.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Paris</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/shu-Qatar-Doha_612436544-1440x823-1.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Qatar</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="imgs/ancient-egypt-pyramids-feature-604509996.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Egypt</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+   
+    
+    
+   
+  </div> 
+  <div class="  p-5  text-dark  rounded-bottom paragraph" id="para">
+      <h1>Travel Gives You Time To Relax </h1>
+      <p class="fs-5">Traveling gives you the time to stop and slow down. It is important that we truly let ourselves
+        relax and sometimes let go of all of our responsibilities in life.</p>
+      <button type="button" class="btn btn-outline-danger ">Learn more</button>
+    </div>
+    <div class="card text-center mt-2  rounded border-top-0">
+      <div class="card-body p-5 ">
+        <h1 class="card-title">Find the best travel tours</h1>
+      </div>
+    </div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item  ">
+        <h2 class="accordion-header">
+          <button class="accordion-button  collapsed fs-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            USA
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>The United States of America, commonly known as the United States or America, is a country primarily
+              located in North America and consisting of 50 states, a federal district, five major unincorporated
+              territories, nine Minor Outlying Islands.</strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Brazil
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Brazil officially the Federative Republic of Brazil, is the largest country in South America and in
+              Latin America. Brazil is the world's fifth-largest country by area and the seventh most populous. Its
+              capital is Brasília, and its most populous city is São Paulo. </strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Kuwait
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Kuwait is a country in the Middle East. It is situated in the northern edge of Eastern Arabia at the
+              tip of the Persian Gulf, bordering Iraq to the north and Saudi Arabia to the south.</strong>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed fs-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Oman
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Oman is a country located in West Asia. It is situated on the southeastern coast of the Arabian
+              Peninsula, and spans the mouth of the Persian Gulf. It shares land borders with Saudi Arabia, United Arab
+              Emirates, and Yemen, while sharing maritime borders with Iran and Pakistan. The capital city is Muscat.
+              Oman has a population of 5,492,196 and is ranked the 120th most populous country.
+            </strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-header text-center bg-secondary fs-2 text-light text-capitalize p-3 ">
+        What do You Know About Us
+      </div>
+      <div class="card-body">
+
+        <p class="card-text fs-5">Travel is a tour agency, specializing in organizing tours to all destinations. We are
+          happy to make your holidays unforgettable and amazing! Our agents are experts in finding you the most
+          comfortable and interesting place for you to have breathtaking holidays.</p>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Write your Notes</label>
+        </div>
+        <button class="btn btn-outline-info mt-2 text-capitalize" id="btn1" data-bs-toggle="popover"
+          data-bs-placement="right" data-bs-content="copied">copy</button>
+
+      </div>
+      <div class="card ">
+        <div class="card-header text-center bg-info fs-2 text-light text-capitalize p-3 ">
+          how travel leaders works
+        </div>
+        <div class="card-body">
+          <p class="card-text fs-5">We are the largest and most celebrated network of professional travel agents in
+            world. Wherever you want to go, however you want to get there, whatever you want to do we have the ideal
+            travel agent match just for you.</p>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Write your Notes</label>
+          </div>
+          <button class="btn btn-outline-info mt-2 text-capitalize" id="btn2" data-bs-toggle="popover"
+            data-bs-placement="right" data-bs-content="copied">copy</button>
+        </div>
+      </div>
+      <div class="image" id="image"></div>
+      <div class="card-header text-center  fs-2 text-info border-0 p-3 ">
+        lastest news
+      </div>
+      <div class="parent text-center" id="parent">
+        <div class=" card" style="height: 60vh; " id="card1">
+          <img src="imgs/woman-enjoying-breath-wind_23-2147670157.jpg" class="card-img-top"
+            style="height: 30vh;width: 80%;margin: auto;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, odit?</p>
+            <a href="#" class="btn btn-info text-capitalize">learn more</a>
+          </div>
+        </div>
+        <div class="card " style="height: 60vh;" id="card2">
+          <img src="imgs/silhouette-people-happy-time_1150-5371.jpg" class="card-img-top"
+            style="height: 30vh;width: 80%;margin: auto;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, odit?</p>
+            <a href="#" class="btn btn-info text-capitalize">learn more</a>
+          </div>
+        </div>
+        <div class="card " style="height: 60vh;" id="card3">
+          <img src="imgs/Untitled-1.jpg" class="card-img-top"
+            style="height: 30vh;width: 80%;margin: auto; " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, odit?</p>
+            <a href="#" class="btn btn-info text-capitalize">learn more</a>
+          </div>
+        </div>
+        <div class="card " style="height: 60vh;" id="card4">
+          <img src="imgs/mountains-nature-landscape_1204-297.jpg" class="card-img-top"
+            style="height: 30vh;width: 80%;margin: auto; " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mountain trips</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, odit?</p>
+            <a href="#" class="btn btn-info text-capitalize">learn more</a>
+          </div>
+        </div>
+        <div class="card " style="height: 60vh;" id="card5">
+          <img src="imgs/young-man-traveler-with-backpack-relaxing-outdoor_1421-190.jpg" class="card-img-top"
+            style="height: 30vh;width: 80%;margin: auto; " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, odit?</p>
+            <a href="#" class="btn btn-info text-capitalize">learn more</a>
+          </div>
+        </div>
+        <div class="card " style="height: 60vh;" id="card6">
+          <img src="imgs/plane-passing-by-sun-cloudy-day_1286-143.jpg" class="card-img-top"
+            style="height: 30vh;width: 80%;margin: auto; " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Air flights</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, odit?</p>
+            <a href="#" class="btn btn-info text-capitalize ">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="image2"></div>
+    </div> <div class="card-header text-center bg-info fs-2 text-light text-capitalize p-3 ">
+      thank for
+    </div>
+    
+   <div class="people">
+      <div class="person" id="person1">
+        <div class="overlay" id="overlay">
+        <h3>all thanks</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <img src="imgs/bohemian-man-with-his-arms-crossed.jpg" alt="">
+        <p>Adam tom</p>
+      </div>
+      <img src="imgs/bohemian-man-with-his-arms-crossed.jpg" alt=""></div>
+      <div class="person" id="person2">
+        <div class="overlay" id="overlay2">
+        <h3>all thanks</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <img src="imgs/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop.jpg" alt="">
+        <p>jassy mike</p>
+      </div>
+      <img src="imgs/portrait-young-businesswoman-holding-eyeglasses-hand-against-gray-backdrop.jpg" alt=""></div>
+      <div class="person" id="person3">
+        <div class="overlay">
+          <h3>all thanks</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <img src="imgs/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded.jpg" alt="">
+          <p style="margin-top: 10px;">gorege</p>
+        </div>
+        <img src="imgs/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded.jpg" alt="">
+      </div>
+    </div>
+  <div class="card-header text-center fs-2 text-info border border-primary-subtle p-3 ">
+      Reasons why People Travel
+    </div>
+   
+   <div class="card  card4 mb-3  mt-5  border border-rounded-end" style="width:80%; height: 45vh;box-shadow: 9px 5px 5px navy;" id="card4">
+      <div class="row">
+  <div class="col-md-4">
+          <img src="imgs/beautiful-girl-standing-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand.jpg" class="img-fluid" style="width: 100%; height: 45vh;
+            ">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize mt-2 text-center fs-3  text-danger">To travel far enough to meet yourself</h5>
+            <div class="line3"></div>
+            <p class="card-text mt-3">Sometimes you find yourself in the middle of nowhere and sometimes in the middle of yourself you find yourself. Travelling lets you discover yourself.But when you are compelled to try it for the first time on a trip, you realize that you could always do it. </p>
+            <a href="#" class="btn btn-primary text-capitalize mt-3">learn more</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   
+    
+  <div class="card  card4 mb-3  mt-5  border border-rounded-end" style="width:80%; height: 45vh;box-shadow: 9px 5px 5px navy;" id="card77">
+      <div class="row g-0">
+ 
+        <div class="col-md-8">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize mt-2 text-center fs-4  text-info">To know the story behind the marks and monuments
+            </h5>
+            <div class="line3" style="background-color: darkblue;"></div>
+            <p class="card-text mt-3">Remember those history classes you had in your high school and they used to be downright boring. You didn’t really care who built what and where did some war take place. But when you visit the places from your history book and you see the historical monument standing in front of you in all its glory, the marks all the years have left on them speak for themselves.  </p>
+            <a href="#" class="btn btn-info text-capitalize mt-3">learn more</a>
+          </div>
+        </div>
+         <div class="col-md-4">
+          <img src="imgs/happy-travel-together-two-fashionable-women-sunny-city-centre-young-joyful-women-expressing-positivity-using-map-vacation-with-bags-cheerful-emotions-good-day.jpg" class="img-fluid" style="width: 100%; height: 45vh;
+            ">
+        </div>
+      </div>
+    </div>
+   <div class="card  card4 mb-3  mt-5  border border-rounded-end" style="width:80%; height: 45vh;box-shadow:9px 5px 5px navy;">
+      <div class="row g-0">
+  <div class="col-md-4">
+          <img src="imgs/happy-travelers-with-map.jpg" class="img-fluid" style="width: 100%; height: 45vh;
+            ">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize mt-2 text-center fs-3  text-success ">To become a storyteller</h5>
+            <div class="line3" style="background-color: lawngreen;"></div>
+            <p class="card-text mt-3">Travelling leaves you speechless and then turns you into a storyteller.Ibn Battuta.  A well-traveled person can tell you stories about things you never thought existed. He can tell you exactly why traveling is far better than partying every now and then.  </p>
+            <a href="#" class="btn btn-danger text-capitalize mt-3">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="card  card4 mb-3  mt-5  border border-rounded-end" style="width:80%; height: 45vh;box-shadow:9px 5px 5px navy;">
+      <div class="row g-0">
+ 
+        <div class="col-md-8">
+          <div class="card-body ">
+            <h5 class="card-title text-capitalize mt-2 text-center fs-3 text-info">To satisfy your food fetish</h5>
+            <div class="line3" style="background-color: rosybrown;"></div>
+            <p class="card-text mt-3">No trip is complete if you don’t taste the local cuisine and pamper your taste buds. Food is the reason worth for some ultimate foodies to pack their bags, and head off to a totally different location on the globe </p>
+            <a href="#" class="btn btn-success text-capitalize mt-3">learn more</a>
+          </div>
+        </div>
+         <div class="col-md-4">
+          <img src="imgs/friends-eating-together-some-street-food.jpg" class="img-fluid" style="width: 100%; height: 45vh;
+            ">
+        </div>
+      </div>
+    </div>
+  <div class="card-header tile text-center text-capitalize fs-2 border-0 p-3 ">
+   join us
+  </div>
+   <div class="icons"  id="icons">
+    <div class="shape" id="shape1">
+       <div class="icons-social fb-i"></div>
+        <h3 style="color: blue;">Facebook</h3>
+        <p>follow us</p>
+    </div>
+  
+    <div class="shape" id="shape2">
+       <div class="icons-social tw-i"></div>
+        <h3 style="color: dodgerblue;">Twitter</h3>
+        <p>follow us </p>
+    </div>
+    <div class="shape" id="shape3">
+       <div class="icons-social ins-i"></div>
+        <h3 style="color: rgb(196, 17, 112);">Instagram</h3>
+        <p>follow us</p>
+    </div>
+    <div class="shape" id="shape4">
+       <div class="icons-social link-i"></div>
+        <h3 style="color: rgb(31, 106, 177);">linkedin</h3>
+        <p>follow us</p>
+    </div>
+  </div>
+  <div class="footer">
+    
+    <div class="foot" style="margin-left: 10px;" id="foot1">
+      <div class="good-company" id="good3">
+        <span class="travel">Travel</span> great company
+      </div>
+      <div class="ol">
+          <ol>
+            <li>tel : 00155555</li>
+            <li>address : roma</li>
+            <li>fax:98523556</li>
+          </ol>
+        </div>
+    </div>
+    <div class="foot" id="foot2">
+      <div class="good-company" id="good1">
+        <span class="travel">Travel</span> important links
+      </div>
+      <div class="ol" >
+        <ol >
+          <li style="color: gray;">Visit Us</li>
+          <li style="color: gray;">take alook</li>
+          <li style="color: gray;">your holiday is here</li>
+        </ol>
+      </div>
+    </div>
+    <div class="foot" id="foot3" >
+      <div class="good-company" id="good2">
+        <span class="travel">Travel</span> Version
+      </div>
+      <div class="ol">
+        <ol>
+          <li>Service for all</li>
+          <li>provide</li>
+          <li>we will be better than before</li>
+        </ol>
+      </div>
+    </div>
+    <div class="card-header  copy text-center text-uppercase fs-2  border border-light-subtle p-3 ">
+      copyright &copy; 2022 anon all right
+    </div>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.XYZ/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        alert("copied texted")
+      })
+      document.getElementById("btn1").onclick = function () {
+        alert("copied texted")
+      }
+      document.getElementById("btn2").onclick = function () {
+        alert("copied texted")
+      }
+    </script>
+</body>
+
+</html>
